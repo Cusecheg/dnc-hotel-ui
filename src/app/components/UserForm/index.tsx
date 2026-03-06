@@ -14,9 +14,10 @@ const initialState = { error: false, message: "" };
 
 type UserFormProps = {
   user?: User;
+  avatar?: boolean
 };
 
-const UserForm = ({ user }: UserFormProps) => {
+const UserForm = ({ user, avatar = false }: UserFormProps) => {
   const action = user ? updateProfile : signup;
   const [state, formAction, pending] = useActionState(action, initialState);
 
@@ -29,6 +30,7 @@ const UserForm = ({ user }: UserFormProps) => {
           label="Selecionar foto"
           id="avatar"
           defaultValue={user?.avatar as string}
+          avatar={false}
         />
         <TextField
           label="Digite o nome completo"
