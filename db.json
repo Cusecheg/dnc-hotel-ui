@@ -1,0 +1,206 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "email": "alice@example.com",
+      "avatar": null,
+      "password": 12345
+    },
+    {
+      "name": "Fulana",
+      "email": "fulana@gmail.com",
+      "password": "12345",
+      "role": "ADMIN",
+      "id": 2
+    },
+    {
+      "name": "Juan Useche",
+      "email": "juanuseche47@gmail.com",
+      "password": "1234",
+      "confirm_password": "1234",
+      "role": "ADMIN",
+      "id": 3
+    },
+    {
+      "name": "Juan Useche",
+      "email": "juanuseche47@gmail.com",
+      "password": "1234",
+      "confirm_password": "1234",
+      "role": "ADMIN",
+      "id": 4
+    },
+    {
+      "name": "Juan Useche",
+      "email": "juanuseche47@gmail.com",
+      "password": "1234",
+      "confirm_password": "1234",
+      "role": "ADMIN",
+      "id": 5
+    },
+    {
+      "name": "Juan Useche",
+      "email": "juanuseche47@gmail.com",
+      "password": "1234",
+      "confirm_password": "1234",
+      "role": "ADMIN",
+      "id": 6
+    },
+    {
+      "name": "Juan Useche",
+      "email": "juanuseche47@gmail.com",
+      "password": "1234",
+      "confirm_password": "1234",
+      "role": "ADMIN",
+      "id": 7
+    },
+    {
+      "name": "Juan Useche",
+      "email": "juanuseche47@gmail.com",
+      "password": "1234",
+      "confirm_password": "1234",
+      "role": "ADMIN",
+      "id": 8
+    },
+    {
+      "name": "Teste DNC",
+      "email": "teste@dnc.com.br",
+      "password": "1234",
+      "role": "USER",
+      "id": 11,
+      "avatar": null,
+      "createdAt": "2026-03-04T18:08:55.022Z"
+    },
+    {
+      "name": "Teste DNC",
+      "email": "teste@dnc.com.br",
+      "password": "1234",
+      "role": "ADMIN",
+      "id": 12,
+      "avatar": null,
+      "createdAt": "2026-03-05T15:23:58.172Z"
+    }
+  ],
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Hotel Teste 1",
+      "description": "Hotel bonito",
+      "address": "Rua Dnc, 123",
+      "image": "/hotel1.jpg",
+      "price": 300,
+      "ownerId": 5,
+      "createdAt": "2026-02-16T12:44:04.014Z",
+      "updatedAt": "2026-02-16T12:44:04.014Z",
+      "owner": {
+        "id": 5,
+        "name": "Mariana Moreira",
+        "email": "juanuseche47@gmail.com",
+        "avatar": "a1756b14-8a8d-47db-8ad1-520d4196f8f0-mono.jpeg"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Hotel Teste 2",
+      "description": "Hotel bonito",
+      "address": "Rua Dnc, 123",
+      "image": null,
+      "price": 300,
+      "ownerId": 5,
+      "createdAt": "2026-02-16T12:44:58.035Z",
+      "updatedAt": "2026-02-16T12:44:58.035Z",
+      "owner": {
+        "id": 5,
+        "name": "Mariana Moreira",
+        "email": "juanuseche47@gmail.com",
+        "avatar": "a1756b14-8a8d-47db-8ad1-520d4196f8f0-mono.jpeg"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Hotel Teste 3",
+      "description": "Hotel bonito",
+      "address": "Rua Dnc, 123",
+      "image": "/hotel3.jpg",
+      "price": 300,
+      "ownerId": 5,
+      "createdAt": "2026-02-16T12:45:02.185Z",
+      "updatedAt": "2026-02-16T12:45:02.185Z",
+      "owner": {
+        "id": 5,
+        "name": "Mariana Moreira",
+        "email": "juanuseche47@gmail.com",
+        "avatar": "a1756b14-8a8d-47db-8ad1-520d4196f8f0-mono.jpeg"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Hotel Teste 4",
+      "description": "Hotel bonito",
+      "address": "Rua Dnc, 123",
+      "image": "/hotel4.jpg",
+      "price": 300,
+      "ownerId": 5,
+      "createdAt": "2026-02-16T12:45:03.438Z",
+      "updatedAt": "2026-02-16T12:45:03.438Z",
+      "owner": {
+        "id": 5,
+        "name": "Mariana Moreira",
+        "email": "juanuseche47@gmail.com",
+        "avatar": "a1756b14-8a8d-47db-8ad1-520d4196f8f0-mono.jpeg"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Hotel Teste 5",
+      "description": "Hotel bonito",
+      "address": "Rua Dnc, 123",
+      "image": "/hotel5.jpg",
+      "price": 300,
+      "ownerId": 5,
+      "createdAt": "2026-02-16T12:45:04.601Z",
+      "updatedAt": "2026-02-16T12:45:04.601Z",
+      "owner": {
+        "id": 5,
+        "name": "Mariana Moreira",
+        "email": "juanuseche47@gmail.com",
+        "avatar": "a1756b14-8a8d-47db-8ad1-520d4196f8f0-mono.jpeg"
+      }
+    }
+  ],
+  "reservations": [
+    {
+      "id": 5,
+      "userId": 1,
+      "hotelId": 1,
+      "checkIn": "2026-02-20T14:00:00.000Z",
+      "checkOut": "2026-02-25T12:00:00.000Z",
+      "total": 1500,
+      "status": "APROVED",
+      "createdAt": "2026-02-16T12:50:00.000Z",
+      "updatedAt": "2026-02-16T12:50:00.000Z"
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "hotelId": 1,
+      "checkIn": "2026-02-20T14:00:00.000Z",
+      "checkOut": "2026-02-25T12:00:00.000Z",
+      "total": 1500,
+      "status": "PENDING",
+      "createdAt": "2026-02-16T12:50:00.000Z",
+      "updatedAt": "2026-02-16T12:50:00.000Z"
+    },
+    {
+      "id": 7,
+      "userId": 1,
+      "hotelId": 1,
+      "checkIn": "2026-02-20T14:00:00.000Z",
+      "checkOut": "2026-02-25T12:00:00.000Z",
+      "total": 1500,
+      "status": "APROVED",
+      "createdAt": "2026-02-16T12:50:00.000Z",
+      "updatedAt": "2026-02-16T12:50:00.000Z"
+    }
+  ]
+}
