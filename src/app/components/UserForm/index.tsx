@@ -30,7 +30,7 @@ const UserForm = ({ user, avatar = false }: UserFormProps) => {
           label="Selecionar foto"
           id="avatar"
           defaultValue={user?.avatar as string}
-          avatar={false}
+          avatar={avatar}
         />
         <TextField
           label="Digite o nome completo"
