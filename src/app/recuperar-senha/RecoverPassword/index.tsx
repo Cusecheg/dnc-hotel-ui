@@ -1,6 +1,6 @@
 "use client";
 
-import { recoverPassword } from "@/app/api/auth/password/route";
+import { recoverPassword } from "@/app/api/auth/password/actions";
 import { PasswordFields } from "@/app/cadastrar/PasswordFields";
 import Alert from "@/app/components/Alert";
 import Button from "@/app/components/Button";

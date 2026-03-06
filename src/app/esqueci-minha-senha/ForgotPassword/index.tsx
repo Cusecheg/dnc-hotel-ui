@@ -4,7 +4,7 @@ import Button from "@/app/components/Button";
 import TextField from "@/app/components/Form/TextField";
 import Image from "next/image";
 import Link from "next/link";
-import { forgotPassword } from "@/app/api/auth/password/route";
+import { forgotPassword } from "@/app/api/auth/password/actions";
 import { useActionState } from "react";
 import Alert from "@/app/components/Alert";
 

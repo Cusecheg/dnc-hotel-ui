@@ -6,7 +6,7 @@ import RadioGroup from "../Form/RadioGroup";
 import Button from "../Button";
 import Alert from "../Alert";
 import { useActionState } from "react";
-import { signup } from "@/app/api/auth/signup/route";
+import { signup } from "@/app/api/auth/signup/actions";
 import { updateProfile } from "@/app/api/users/actions";
 import { User } from "@/types/User";
 
