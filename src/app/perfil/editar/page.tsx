@@ -17,7 +17,7 @@ const EditarPage = async () => {
     return(
         <section className="max-w-96 w-full flex justify-center items-center flex-col py-4 px-6 border border-light-grey-500 rounded-2xl">
             <span className="my-5">Editar Perfil</span>
-            <UserForm user={user} avatar />
+            <UserForm user={user} avatar={true} />
             <Link href="/perfil" className="mt-2 justify-center text-blue-500">
                 Voltar
             </Link>
