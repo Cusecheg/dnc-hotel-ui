@@ -59,7 +59,7 @@ const Header = () => {
                 <nav className={`absolute px-8 py-6 bg-white rounded-2xl shadow-lg right-10 top-18 ${menuStyle}`}>
                     <ul className="font-medium">
                         <li>
-                            <Link href="perfil">Meu Perfil</Link>
+                            <Link href="/perfil">Meu Perfil</Link>
                         </li>
                         <li className="mt-4">
                             <Link href="/reservas">Minhas reservas</Link>
