@@ -32,5 +32,5 @@ export async function recoverPassword(prevState: any, formData: FormData) {
         return { ...prevState, message: 'Erro ao atualizar a senha' };
     }
     
-    redirect('/recuperar-senha')    
+    redirect('/login')    
 }
